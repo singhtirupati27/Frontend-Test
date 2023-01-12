@@ -1,0 +1,296 @@
+/* Utilities */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+ul li a {
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+}
+
+ul li a:hover {
+    background-color: red;
+    border-radius: 50px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 190px;
+    cursor: pointer;
+    border-width: 0;
+}
+
+.page-wrapper {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* Header start */
+.header {
+    background-color: #42af8a;
+    height: 70px;
+}
+
+.hdr-cnt1 {
+    float: left;
+}
+
+.hdr-cnt1 ul li {
+    padding: 25px;
+    text-align: center;
+}
+
+.hdr-cnt2 ul li {
+    text-align: center;
+}
+
+.hdr-cnt2 ul li a{
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hdr-cnt2 {
+    float: right;
+}
+
+.hdr-item {
+    color: white;
+    box-sizing: border-box;
+}
+
+.hdr-img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+/* Header end */
+
+/* Nav start */
+.nav {
+    height: 70px;
+}
+
+.nav-bar {
+    float: right;
+}
+
+.nav-img {
+    height: 10px;
+    width: 10px;
+}
+
+#logo {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-bar ul li a {
+    color: rgba(0, 0, 0, 0.85);
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* #srch-btn {
+    height: 50px;
+    width: 50px;
+} */
+
+#srch {
+    height: 40px;
+    border-color: rgba(0, 0, 0, 0.233);
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+.nav-bar ul li:last-child a {
+    /* border: 1px solid red; */
+    /* height: 50px;
+    border-radius: 50px; */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.nav-bar ul li:last-child :hover {
+    background-color: transparent;
+}
+/* Nav end */
+
+/* Home page start */
+.home-page {
+    height: 550px;
+    background-image: linear-gradient(rgb(0 0 0 / 62%), rgb(28 28 23 / 57%), rgb(41 39 48 / 85%)), url(/img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* text-align: center; */
+}
+
+.hm-pg-wrap {
+    position: relative;
+}
+
+.hm-wrap {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text h1 {
+    font-size: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.hm-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#box1 {
+    border-right: 2px solid white;
+}
+
+.hm-wrap h1, p {
+    color: white;
+}
+
+.hm-wrap p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hm-pg-box {
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+
+.hm-wrap-box {
+    padding: 10px;
+    text-align: center;
+}
+
+.hm-wrap-box img {
+    height: 130px;
+    width: 170px;
+}
+
+.float-menu {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+}
+
+.float-menu ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.float-menu ul li a:hover {
+    background-color: transparent;
+}
+
+#apt-btn {
+    height: 45px;
+    width: 205px;
+}
+
+#apt-btn:hover {
+    background-color: #42af8a;
+}
+/* Home page end */
+
+/* Help Page start */
+.help-container {
+    height: 200px;
+    background-color: bisque;
+    overflow: visible;
+}
+
+.help-pg-wrap {
+    position: relative;
+}
+
+.help-cnt {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    bottom: -50px;
+    left: 100px;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.26);
+}
+
+.help-cnt h3 {
+    display: inline-block;
+    color: red;
+}
+
+.help-cnt a {
+    float: right;
+    color: green;
+    text-decoration: underline;
+}
+
+/* .help-menu {
+    margin-top: 15px;
+    margin-bottom: 15px;
+} */
+
+select {
+    border-radius: 50px;
+    height: 40px;
+    width: 260px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.205);
+}
+
+#scrh {
+    height: 40px;
+    width: 130px;
+}
+
+#scrh img {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+/* Help Page end */
