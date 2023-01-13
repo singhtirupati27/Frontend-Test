@@ -145,7 +145,7 @@ ul li a:hover {
 /* Home page start */
 .home-page {
     height: 550px;
-    background-image: linear-gradient(rgb(0 0 0 / 62%), rgb(28 28 23 / 57%), rgb(41 39 48 / 85%)), url(/img/banner.jpg);
+    background-image: linear-gradient(rgb(0 0 0 / 62%), rgb(28 28 23 / 57%), rgb(41 39 48 / 85%)), url(./img/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
